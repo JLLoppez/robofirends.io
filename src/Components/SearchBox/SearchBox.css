@@ -1,0 +1,45 @@
+.abi{
+    margin: 0;
+    padding: 0;
+    background: rgba(43,199,52,0.7) 45%, rgba(77,147,50,0.9) 55%;
+
+}
+.box{
+    position: relative;
+    align-content: center;
+    transform: translate(-0.05%,-10%);
+}
+.input {
+    padding: 5px;
+    width: 60px;
+    height: 40px;
+    background: none;
+    border: 4px solid black;
+    border-radius: 35px;
+    box-sizing: border-box;
+    font-family: DK Aint Nothing Fancy;
+    font-size: 30px;
+    color:#ffd52d;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 240px;
+    background: rgba(43,199,52,0.7) 45%, rgba(77,147,50,0.9) 55%;
+    border-radius: 10px;
+}
+.i{
+    position: relative;
+    align-content: center;
+    transform: 
+    translate(-130%,19%);
+        font-size: 25px;
+        color: black;
+        transition: .2s;
+        
+}
+
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
