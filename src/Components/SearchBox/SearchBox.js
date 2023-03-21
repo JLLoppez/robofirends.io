@@ -6,19 +6,16 @@ import {FaSearch} from 'react-icons/fa';
 const SearchBox = ({ searchfield, searchChange}) => {
  
   return (
-    <div className='abi'>
-      <div className='box'>
-        <form className='search'>
-          <input 
-            className='input'
-            type='text'
-            placeholder=''
-            onChange={searchChange}
-          />
-          <FaSearch className='i'/>
-        </form>
-      </div>
+    <div class="search-container">
+      <input 
+        type="text" 
+        placeholder="Search..."
+        onChange={searchChange}/>
+        <i class="fa fa-search">
+          <FaSearch/>
+        </i>
     </div>
+
   );
 }
 export default SearchBox;

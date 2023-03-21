@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from './Card';
+import './Card.css'
 
 const Cardlist = ({robots}) => {
 	return(
-		<div >
+		<div>
 			{
 				robots.map((user, i) => {
 					return(

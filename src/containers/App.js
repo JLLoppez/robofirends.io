@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { setSearchField, requestRobots } from '../actions';
 
-import Cardlist from '../Components/Cardlist';
+import Cardlist from '../Components/Card/Cardlist';
 import SearchBox from '../Components/SearchBox/SearchBox';
 import Scroll from '../Components/Scroll';
 import ErrorBoundry from '../Components/ErrorBoundry';

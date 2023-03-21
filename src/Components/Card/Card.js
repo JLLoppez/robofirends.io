@@ -1,8 +1,9 @@
 import React from 'react';
+import './Card.css'
 
 const Card = ({ name, email, id }) => {
   return (
-    <div className='tc grow bg-dark-green br2 pa2 ma2 dib bw2 shadow-4'>
+    <div className='tc grow bg-dark-green br2 pa2 ma2 dib bw2 shadow-4 caar' >
       <img alt='robots' src={`https://robohash.org/${id}?size=200x200`} />
       <div>
         <h2>{name}</h2>
